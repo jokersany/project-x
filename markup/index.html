@@ -5,28 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>commandss list</title>
+    <style>
+ table {
+            table-layout: fixed;
+            width: 800px;
+            border: 3px solid #000;
+        }
+        th,
+        td {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>commandss list git terminal</h1>
-    </header>
-    <main>
-        <a href="./gallery.html">gallery</a>
-        <ol>
-            <li><strong>git config user.name</strong></li>
-            <li><strong>git config user.email</strong></li>
-            <li><strong>git --version</strong></li>
-            <li><strong>git status</strong></li>
-            <li><strong>git config --global user.name</strong></li>
-            <li><strong>git config --global user.email</strong></li>
-            <li><strong>git add .</strong></li>
-            <li><strong>git commit -m "new add"</strong></li>
-            <li><strong>git push</strong></li>
-            <li><strong>git pull</strong></li>
-        </ol>
-    </main>
-    <footer>
-
-    </footer>
+  <header>
+    <nav></nav>
+  </header>
+  <main>
+    <table>
+        <tr align="center">
+            <td colspan="8" style="background:blue">My first table</td>
+        </tr>
+        <tr align="center">
+            <td style="background:blue">First cell</td>
+            <td style="background:blue">Second cell</td>
+            <td colspan="6" rowspan="3" style="background: yellow;">6 cells merged together</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2" style="background: yellow;">2 cells merged into one</td>
+        </tr>
+        <tr align="center">
+            <td style="background: yellow;">1 st cell</td>
+            <td style="background: yellow;">2nd cell</td>
+        </tr>
+        <tr align="center">
+            <td colspan="8" style="background: yellow;">Do you like tables?</td>
+        </tr>
+    </table>
+  </main>
+  <footer></footer>
 </body>
 </html>
