@@ -1,0 +1,41 @@
+header * {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+ul a i {
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+}
+.menu {
+color: yellow;
+font-size: 40px;
+text-decoration: line-through;
+}
+#main {
+    border-bottom: 10px solid;
+    color: blue;
+}
+p, h2 {
+    color: pink;
+    font-size: 14px;
+}
+p>strong {
+    color: orange;
+    text-align: end;
+    font-size: 25px;
+}
+strong+em {
+    color: greenyellow;
+    font-size: medium;
+}
+.Cool~b {
+    color: blueviolet;
+    text-decoration:solid;
+    font-size: 60px;
+}
+[id="footer"] {
+    background: green;
+}
