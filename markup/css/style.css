@@ -1,16 +1,96 @@
-* {
-    box-sizing: border-box;
+.container {
+    background-color:grey;
+    margin: auto; 
+    text-align: left;
+    max-width: 1920px;
+    width: 100%;
+
 }
-.next {
+
+
+ul.hr li {
+    display: inline;
+    margin: 20px;
+}
+
+ul.hp li {
+    display: inline;
+    margin: 20px;
+    background-color: #34547A;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+.cont {
+    background-color:grey;
+    margin: auto; 
+    max-width: 1920px;
+    width: 100%;
+}
+
+.max {
+    margin: 0 20px;
+    padding: 0 20px;
+    max-width: 540px;
+    width: 100%;
+    left: 400px;
+    top: 362px;
+}
+
+.info {
+    margin: auto;
+    max-width: 540px;
+    width: 100%;
+    line-height: 26px;
     text-align: center;
-    width: calc(100% / 3) ;
-    border-radius: 20px;
-    padding: 20px;
+}
+
+.book {
+    list-style: none;
+    margin: 40 0;
+    padding: 0;
+    text-align: center;
+    background-color: #34547A;
+}
+
+.book>li {
+    width: calc(100% / 6) ;
     display: inline-block;
-    margin-left: -4px;
-    border-top: 15px solid greenyellow;
-    border-right: 10px solid green;
-    border-bottom: 15px solid greenyellow;
-    border-left: 10px solid green;
+}
+
+.icon-soccer-ball {
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.newitem,
+.icon-soccer-ball {
+    text-align: center;
+    display: inline-block;
+}
+
+.video {
+    margin: 40px;
+    text-align: center;
+}
+
+.do {
+    font-family: 'Roboto';
+    margin: auto;
+    text-align: center;
+    max-width: 1920px;
+    width: 100%;
+    height: 151px;
+    left: 0px;
+    top: 2313px;
+    padding: 0 20px;
+    text-align: left;
+    background-color: #34547A;
 
 }
