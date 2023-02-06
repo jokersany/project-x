@@ -1,15 +1,31 @@
-.container {
-    background-color:grey;
-    margin: auto; 
-    text-align: left;
-    max-width: 1920px;
+header,
+main {
+    font-family: Roboto, Arial, Helvetica, sans-serif ;
+    font-weight: normal;
+    font-style: normal;
+    width: 1950px;
     width: 100%;
 }
 
+.container,
+.cont {
+    height: 350px;
+    background-color:grey;
+}
 
 ul.hr li {
     display: inline;
     margin: 20px;
+}
+
+.about {
+    text-align: left;
+    position: absolute;
+    max-width: 800px;
+    height: 27px;
+    left: 150px;
+    top: 50px;
+    width: 100%;
 }
 
 ul.hp li {
@@ -22,23 +38,19 @@ li>a {
     text-decoration: none;
 }
 
-.cont {
-    background-color:grey;
-    margin: auto; 
-    max-width: 1920px;
-    width: 100%;
-}
-
 .max {
-    margin: 0 20px;
     padding: 0 20px;
     max-width: 540px;
     width: 100%;
-    left: 400px;
+    left: 200x;
     top: 362px;
 }
 
 .info {
+    width: 540px;
+    height: 147px;
+    left: 690px;
+    top: 812px;
     margin: auto;
     max-width: 540px;
     width: 100%;
@@ -64,7 +76,6 @@ li>a {
 }
 
 p {
-    font-family: 'Roboto';
     margin: 0;
 }
 
@@ -72,6 +83,18 @@ p {
 .icon-soccer-ball {
     text-align: center;
     display: inline-block;
+}
+
+.infor {
+    width: 540px;
+    height: 147px;
+    left: 690px;
+    top: 1409px;
+    margin: auto;
+    max-width: 540px;
+    width: 100%;
+    line-height: 26px;
+    text-align: center;
 }
 
 .video {
@@ -91,5 +114,12 @@ p {
     padding: 0 20px;
     text-align: left;
     background-color: #34547A;
+}
 
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
 }
