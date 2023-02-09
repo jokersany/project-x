@@ -1,125 +1,51 @@
-header,
-main {
-    font-family: Roboto, Arial, Helvetica, sans-serif ;
-    font-weight: normal;
-    font-style: normal;
-    width: 1950px;
-    width: 100%;
+.container {
+    background: #C4C4C4;
+    height: 800px;
+    max-width: 1100px;
+    overflow: hidden;
+}
+.menu {
+    margin: 50px;
+    width: 1000px;
+    background: #E6E6E6;
 }
 
-.container,
-.cont {
-    height: 350px;
-    background-color:grey;
-}
-
-ul.hr li {
-    display: inline;
-    margin: 20px;
-}
-
-.about {
-    text-align: left;
-    position: absolute;
-    max-width: 800px;
-    height: 27px;
-    left: 150px;
-    top: 50px;
-    width: 100%;
-}
-
-ul.hp li {
-    display: inline;
-    margin: 20px;
-    background-color: #34547A;
-}
-
-li>a {
-    text-decoration: none;
-}
-
-.max {
-    padding: 0 20px;
-    max-width: 540px;
-    width: 100%;
-    left: 200x;
-    top: 362px;
-}
-
-.info {
-    width: 540px;
-    height: 147px;
-    left: 690px;
-    top: 812px;
-    margin: auto;
-    max-width: 540px;
-    width: 100%;
-    line-height: 26px;
-    text-align: center;
-}
-
-.book {
+.top {
     list-style: none;
-    margin: 40 0;
-    padding: 0;
-    text-align: center;
-    background-color: #34547A;
 }
 
-.book>li {
-    width: calc(100% / 6) ;
+.top li {
     display: inline-block;
 }
 
-.icon-soccer-ball {
-    font-size: 40px;
-}
-
-p {
-    margin: 0;
-}
-
-.newitem,
-.icon-soccer-ball {
+.top:first-child {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
     text-align: center;
-    display: inline-block;
-}
-
-.infor {
-    width: 540px;
-    height: 147px;
-    left: 690px;
-    top: 1409px;
-    margin: auto;
-    max-width: 540px;
-    width: 100%;
-    line-height: 26px;
-    text-align: center;
-}
-
-.video {
-    margin: 40px;
-    text-align: center;
-}
-
-.do {
-    font-family: 'Roboto';
-    margin: auto;
-    text-align: center;
-    max-width: 1920px;
-    width: 100%;
-    height: 151px;
-    left: 0px;
-    top: 2313px;
-    padding: 0 20px;
-    text-align: left;
-    background-color: #34547A;
-}
-
-h4 {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 25px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
 }
+
+.top:last-child {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* .top:last-child {
+    float: right;
+} */
