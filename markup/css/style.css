@@ -23,10 +23,8 @@
     height: 200px;
     background: #FC8F8F;
     text-align: center;
-    font-family: 'Roboto';
+    font: 700 64px/1.2'Roboto',Arial, Helvetica, sans-serif ;
     font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
     line-height: 75px;
     text-align: center;
     color: #FFFFFF;
@@ -37,10 +35,8 @@
     height: 200px;
     background: #FC8F8F;
     text-align: center;
-    font-family: 'Roboto';
+    font: 700 64px/1.2'Roboto',Arial, Helvetica, sans-serif ;
     font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
     line-height: 75px;
     text-align: center;
     color: #FFFFFF;
