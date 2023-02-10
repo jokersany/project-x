@@ -10,15 +10,18 @@
     background: #E6E6E6;
 }
 
-.top {
-    list-style: none;
+.left,
+.right {
+    margin: 0;
 }
 
-.top li {
+ .menu p {
     display: inline-block;
 }
 
-.top:first-child {
+.right,
+.left {
+    padding: 64px 0;
     width: 200px;
     height: 200px;
     background: #FC8F8F;
@@ -26,22 +29,87 @@
     font: 700 64px/1.2'Roboto',Arial, Helvetica, sans-serif ;
     font-style: normal;
     line-height: 75px;
-    text-align: center;
     color: #FFFFFF;
 }
 
-.top:last-child {
-    width: 200px;
-    height: 200px;
-    background: #FC8F8F;
-    text-align: center;
-    font: 700 64px/1.2'Roboto',Arial, Helvetica, sans-serif ;
-    font-style: normal;
-    line-height: 75px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-/* .top:last-child {
+.right {
     float: right;
-} */
+    }
+
+.on {
+    margin: 0;
+    padding: 64px 0;
+}
+
+.on  {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    text-align: center;
+    font: 700 64px/1.2'Roboto',Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    line-height: 75px;
+    color: #FFFFFF;  
+}
+
+.fast p {
+    padding: 31px 0;
+    margin: 0;
+}
+.on3,
+.on4,
+.on5,
+.on2{
+    width: 100px;
+    height: 100px;
+    background: #FC8F8F;
+    font: 700 36px/1.2'Roboto',Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p#one2,
+p#one4 {
+    margin: 0 15px;
+}
+
+.fast {
+    float: right;
+}
+
+.book,
+.door,
+.lemon,
+.candy {
+    margin: 0;
+    padding: 64px 0;
+}
+
+.candy,
+.book,
+.door,
+.lemon {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    text-align: center;
+    font: 700 64px/1.2'Roboto',Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+p#tu,
+p#tyt {
+    margin: 0 15px;
+}
+
+.stop p {
+    margin: 0;
+}
+
+.stop {
+    float: right;
+}
