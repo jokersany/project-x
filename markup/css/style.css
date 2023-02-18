@@ -1,115 +1,51 @@
 .container {
-    background: #C4C4C4;
-    height: 800px;
-    max-width: 1100px;
-    overflow: hidden;
-}
-.menu {
-    margin: 50px;
-    width: 1000px;
-    background: #E6E6E6;
+    width: 100%;
+    background: black;
 }
 
-.left,
-.right {
-    margin: 0;
+.new {
+   list-style: none;
+   margin: 0;
+   padding: 0;
 }
 
- .menu p {
+.new>li {
     display: inline-block;
+    padding: 30px;
 }
 
-.right,
-.left {
-    padding: 64px 0;
-    width: 200px;
-    height: 200px;
-    background: #FC8F8F;
-    text-align: center;
-    font: 700 64px/1.2'Roboto',Arial, Helvetica, sans-serif ;
-    font-style: normal;
-    line-height: 75px;
-    color: #FFFFFF;
+.new li {
+    position: relative;
 }
 
-.right {
-    float: right;
-    }
+.new a {
+    padding: 30px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
 
-.on {
+.new ul {
     margin: 0;
-    padding: 64px 0;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background: green;
 }
 
-.on  {
-    width: 200px;
-    height: 200px;
-    background: #FC8F8F;
-    text-align: center;
-    font: 700 64px/1.2'Roboto',Arial, Helvetica, sans-serif ;
-    font-style: normal;
-    line-height: 75px;
-    color: #FFFFFF;  
+.new ul ul {
+    top: 0;
+    left: 100%;
 }
 
-.fast p {
-    padding: 31px 0;
-    margin: 0;
-}
-.on3,
-.on4,
-.on5,
-.on2{
-    width: 100px;
-    height: 100px;
-    background: #FC8F8F;
-    font: 700 36px/1.2'Roboto',Arial, Helvetica, sans-serif ;
-    font-style: normal;
-    line-height: 42px;
-    text-align: center;
-    color: #FFFFFF;
+.new li:hover>ul {
+    display: block;
 }
 
-p#one2,
-p#one4 {
-    margin: 0 15px;
-}
-
-.fast {
-    float: right;
-}
-
-.book,
-.door,
-.lemon,
-.candy {
-    margin: 0;
-    padding: 64px 0;
-}
-
-.candy,
-.book,
-.door,
-.lemon {
-    width: 200px;
-    height: 200px;
-    background: #FC8F8F;
-    text-align: center;
-    font: 700 64px/1.2'Roboto',Arial, Helvetica, sans-serif ;
-    font-style: normal;
-    line-height: 75px;
-    color: #FFFFFF;
-}
-
-p#tu,
-p#tyt {
-    margin: 0 15px;
-}
-
-.stop p {
-    margin: 0;
-}
-
-.stop {
-    float: right;
+.new>li:hover {
+    background: yellowgreen;
 }
