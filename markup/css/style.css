@@ -47,7 +47,8 @@ button.checked:hover,
 button.checked1:hover,
 .button.tonnok:hover,
 .button.check:hover {
-    border: 2px solid yellowgreen;
+    background: yellowgreen;
+    /* border: 2px solid yellowgreen; */
 }
 
 .button.checked1 {
@@ -412,6 +413,12 @@ span {
     position: absolute;
     left: 0;
     top: 56px;
+}
+
+.icon-youtube:hover,
+.icon-facebook:hover,
+.icon-instagram:hover {
+    background: yellowgreen; 
 }
 
 .icon-facebook {
