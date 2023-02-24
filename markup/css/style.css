@@ -12,18 +12,18 @@ footer {
     background: white;
 }
 header {
-    max-width: 1920;
+    max-width: 1920px;
     background: #E5E5E5;
 }
 
 .header {
-    max-width: 1920;
+    max-width: 1920px;
     background: white;
 }
 
 .container {
     margin: auto;
-    max-width: 1150px;
+    max-width: 1920px;
     text-align: center;
     background: white;
 }
@@ -42,13 +42,26 @@ header {
     text-align: center;
 }
 
+.goo {
+    font: 400 14px/1.2'Roboto',Arial, Helvetica, sans-serif;
+    line-height: 16px;
+}
+
+.gooo {
+    font: 400 16px/1.2'Roboto',Arial, Helvetica, sans-serif;
+    line-height: 19px;
+}
+
+.pop {
+    border-top: 1px solid #EFEFEF;
+}
+
 a:hover,
 button.checked:hover,
 button.checked1:hover,
 .button.tonnok:hover,
 .button.check:hover {
     background: yellowgreen;
-    /* border: 2px solid yellowgreen; */
 }
 
 .button.checked1 {
@@ -71,7 +84,7 @@ button.checked1:hover,
 }
 
 .button.tonnok {
-    font: 400 14px/1.2'Roboto',Arial, Helvetica, sans-serif;
+    font: 500 14px/1.2'Roboto',Arial, Helvetica, sans-serif;
     padding: 9px 53px;
     background: #F13C6E;
     border: 2px solid #F13C6E;
@@ -91,6 +104,7 @@ a {
     color: black;
 }
 
+.gooo,
 .goo {
     color: black;
     text-decoration: none;
@@ -98,15 +112,16 @@ a {
     list-style: none;
 }
 
+
 .image {
-    position: relative;
+    margin: auto;
     max-width: 1150px;
     background: white;
 }
 
 
 .check {
-    margin: 20px 20px;
+    margin: 20px 0 20px 20px;
     padding: 12px 70px;
 }
 
@@ -115,10 +130,15 @@ a {
     display: inline-block;
 }
 
+.mega  {
+    margin: 0 auto;
+    max-width: 1150px;
+    background: white;
+}
+
 .trust {
-    left: 0;
-    top: 20px;
-    position: absolute;
+    margin: 20px 0 0;
+    float: left;
 }
 
 .btn {
@@ -126,8 +146,9 @@ a {
 }
 
 .pop {
+    padding-inline-start: 0;
     display: inline-block;
-    padding: 30px 0;
+    margin: 50px 50px 30px 50px;
 }
 
 .left {
@@ -135,7 +156,6 @@ a {
 }
 
 .lefter {
-    padding: 0 20px;
     width: 308px;
     text-align: left;
     position: absolute;
@@ -144,10 +164,14 @@ a {
     color: white;
 }
 
+.leftp {
+    font: 400 14px/1.2'Roboto',Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
 
 .button.checked {
+    padding: 12px 26px 13px 27px;
     width: 170px;
-    height: 40px;
     color: white;
     background: #F13C6E;
     border: 2px solid #FFFFFF;
@@ -194,10 +218,36 @@ h5 {
     line-height: 28px;
 }
 
+h6 {
+    width: 255px;
+    border-bottom: 1px solid #EFEFEF;
+    padding: 60px 0 30px 0;
+    text-align: left;
+    font: 500 16px/1.2'Roboto',Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    color: #000000;
+}
+
 .topsto {
-    /* text-align: center; */
     margin: 0 auto;
     max-width: 1150px;
+}
+
+.one.eno {
+    margin: 0 30px;
+}
+
+.one.ono {
+    margin-right: 30px;
+}
+
+.displa {
+    padding: 15px 0;
+
+}
+
+.display {
+    display: inline-block;
 }
 
 .one {
@@ -205,42 +255,30 @@ h5 {
     text-align: center;
     max-width:calc(100% / 4);
     width: 260px;
-    height: 363;
     display: inline-block;
     background: white;
-}
-div#threee,
-div#three {
-    margin: 0 30px;
-}
-div#twoo,
-div#two {
-    margin-right: 30px;
-}
-
-.one p {
-    margin: auto;
-    text-align: center;
-    padding: 0 30px;
-    width: 195px;
-    height: 33px;
-}
-
- .one b{
-    padding: 0 0 20px;
-    text-align: center;
-    font:500 21px/1.2'Roboto',Arial, Helvetica, sans-serif ;
-    line-height: 25px;
 }
 
 .mechta {
     margin: 0 0 100px;
 }
 
+.one p {
+    text-align: center;
+    width: 195px;
+}
+
+ .one b{
+    text-align: center;
+    font:500 21px/1.2'Roboto',Arial, Helvetica, sans-serif ;
+    line-height: 25px;
+}
+
+
 .nechto {
     padding-right: 30px;
     display: inline-block;
-    width: 540px;
+    width: 560px;
     background: #F13C6E;
 }
 
@@ -266,13 +304,9 @@ input {
 
 
 .topik {
+    margin: 0 0 15px;
     padding: 35px 40px;
 }
-
-/* .topik,
-.icon-mail-envelope-closed {
-    display: inline-block;
-} */
 
 .posta {
     padding: 53px 45px;
@@ -296,13 +330,17 @@ input {
     float: right;
 }
 
+.nechto,
+.nechto1{
+     margin: 1px 0 100px;
+}
+
 .nechto1 {
-    margin: 0 0 100px;
     float: right;
 }
 
 .nechto1 {
-    width: 540px;
+    width: 557px;
     background: #F13C6E;
 }
 
@@ -326,6 +364,7 @@ input {
 }
 
 .topik1 {
+    margin: 0 0 7px;
     padding: 35px 40px;
 }
 
@@ -346,33 +385,22 @@ table {
 
 .chop   {
     display: inline-block;
-    /* text-align: left; */
 }
 
 .trysty li {
     text-align: left;
     padding: 0;
 }
-.block  p{
-    border-width: 0 0 200px 0;
-    border-bottom: 1px solid #EFEFEF;
-    padding: 60px 0 30px 0;
-    text-align: left;
-    font: 500 16px/1.2'Roboto',Arial, Helvetica, sans-serif;
-    line-height: 22px;
-    color: #000000;
-}
 
 .block {
+    /* float: left; */
     margin: 0 0 60px;
-    padding-right: 175px;
     max-width:calc(100% / 4);
     display: inline-block;
 }
 
 .footer {
     margin: auto;
-    text-align: center;
     max-width: 1150px;
 }
 
@@ -392,7 +420,10 @@ table {
 
 
 .text {
-    position: relative;
+    margin: auto;
+    max-width: 1150px;
+    background: white;
+    /* position: relative; */
     border-top:  1px solid #EFEFEF;
 }
 
@@ -410,10 +441,10 @@ span {
 }
 
 .popkorm {
-    position: absolute;
-    left: 0;
-    top: 56px;
+    margin: 50px 0 0;
+   float: left;
 }
+
 
 .icon-youtube:hover,
 .icon-facebook:hover,
@@ -422,7 +453,8 @@ span {
 }
 
 .icon-facebook {
-    margin: 0 20px;
+    
+    /* margin: 0 20px; */
 }
 
 .latte {
@@ -444,9 +476,11 @@ span {
     position: absolute;
     display: inline-block;
 }
+
 .pitter {
     position: relative;
 }
+
 .floatleft {
     left: 0;
 }
@@ -454,6 +488,7 @@ span {
 .floatright {
     right: 0;
 }
+
 a#greyy,
 a#grey {
     font: 400 12px/1.2'Roboto',Arial, Helvetica, sans-serif;
