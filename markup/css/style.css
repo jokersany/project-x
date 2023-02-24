@@ -247,6 +247,7 @@ h6 {
 }
 
 .display {
+    width: 182px;
     display: inline-block;
 }
 
@@ -263,12 +264,12 @@ h6 {
     margin: 0 0 100px;
 }
 
-.one p {
+/* .one p {
     text-align: center;
     width: 195px;
-}
+} */
 
- .one b{
+.bold{
     text-align: center;
     font:500 21px/1.2'Roboto',Arial, Helvetica, sans-serif ;
     line-height: 25px;
@@ -276,17 +277,26 @@ h6 {
 
 
 .nechto {
+    color: white;
     padding-right: 30px;
     display: inline-block;
     width: 560px;
     background: #F13C6E;
 }
 
-.topik p{
+.topik11 {
     width: 129px;
     font: 400 14px/1.2'Roboto',Arial, Helvetica, sans-serif;
     line-height: 20px;
     color: #FFFFFF;
+}
+
+
+.topik22 {
+    width: 129px;
+    font: 400 14px/1.2'Roboto',Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: white;
 }
 
 .bin {
@@ -342,13 +352,6 @@ input {
 .nechto1 {
     width: 557px;
     background: #F13C6E;
-}
-
-.topik1 p{
-    width: 129px;
-    font: 400 14px/1.2'Roboto',Arial, Helvetica, sans-serif;
-    line-height: 20px;
-    color: #FFFFFF;
 }
 
 .checked1 {
