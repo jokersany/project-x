@@ -1,0 +1,257 @@
+footer {
+	background: #EEEEEE;
+	max-width: 100%;
+  }
+
+.country {
+    max-width: 1480px;
+    padding: 90px 55px 0px 55px;
+   
+    .netto {
+      align-items: flex-start;
+      justify-content: space-around;
+      justify-items: center;
+      display: flex;
+      padding: 0 20px 90px;
+      border-bottom: 1px solid black;
+
+    @media (min-width: 576px) {
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 768px) {
+      display: flex;
+      width: 100%;
+    }
+    
+    @media (min-width: 992px) {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        justify-items: center;
+        padding: 0 20px 90px;
+        text-align: left;
+    }
+
+  }
+    .toro {
+      padding: 0;
+    }
+    .swap2 {
+        justify-content: space-around;
+        display: flex;
+        width: 65%;
+        flex-wrap: wrap;
+
+        
+
+        @media (min-width: 576px) {
+            padding-left: 30px;
+            text-align: center;
+            width: 100%;
+        }
+    
+        @media (min-width: 768px) {
+          padding-left: 30px;
+        }
+        
+        @media (min-width: 992px) {
+            justify-content: space-around;
+            display: flex;
+            width: 65%;
+            text-align: left;
+        }
+
+        .gogogo {
+        width: 23%;
+
+        @media (min-width: 576px) {
+            width: 50%;
+        }
+        
+        @media (min-width: 768px) {
+          width: 50%;
+      }
+
+        @media (min-width: 992px) {
+            width: 23%;
+        }
+        
+        }
+    }
+  
+    .swap {
+      width: 30%;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+
+      @media (min-width: 576px) {
+        display: inline-block;
+        width: 100%;  
+      }
+
+      @media (min-width: 768px) {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .played {
+        width: 80px;
+        list-style: none;
+    }
+
+    @media (min-width: 992px) {
+        width: 30%;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+
+      & h4 {
+        margin: 0;
+        font: 600 40px'Graphiklcg';
+        line-height: 50px;
+      }
+    }
+    
+    .picture {
+      padding: 30px 0;
+    }
+    
+    .bolto {
+      width: 80%;
+      font: 400 20px'Graphiklcg';
+      line-height: 30px;
+
+      & p {
+        margin: 0;
+      }
+    }
+    
+    
+    .five {
+      text-decoration: none;
+      font: 600 20px'Graphiklcg';
+      line-height: 30px; 
+    }
+    
+    .stop {
+      padding: 0;
+      font: 400 15px'Graphiklcg';
+      line-height: 15px;
+
+
+      & li {
+        margin: 15px 0;
+      }
+    }
+    
+    
+    .stop li a {
+      text-decoration: none;
+    }
+    
+    .stop  {
+      list-style: none;
+    }
+    
+    .letsgo {
+      padding: 0;
+      list-style: none;
+    }
+    
+    
+    .gogogo h5 {
+      padding: 0;
+      margin: 0;  
+      padding-bottom: 6px;
+      font: 600 20px'Graphiklcg';
+      line-height: 25px;
+    }
+    
+    .five {
+      font: 600 20px'Graphiklcg';
+      line-height: 30px; 
+    }
+    
+    .monob {
+      padding: 50px 0;
+      display: flex;
+      justify-content:space-between ;
+      flex-direction: row;
+      align-items: center;
+
+      @media (min-width: 576px) {
+        display: flex;
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        display: flex;
+        width: 100%;
+    }
+
+    @media (min-width: 992px) {
+        padding: 50px 0;
+      display: flex;
+      justify-content:space-between ;
+      flex-direction: row;
+      align-items: center;
+    }
+    }
+    
+    .swapter {
+      display: flex;
+      align-items: center;
+
+      @media (min-width: 576px) {
+        display: inline;
+        width: 100%;
+
+        .location {
+            width: 90px;
+            list-style: none;
+        }
+    }
+
+    @media (min-width: 992px) {
+        display: flex;
+        align-items: center;
+    }
+    }
+    
+    .laptop1,
+    .laptop {
+      font: 400 12px'Graphiklcg';
+      line-height: 15px; 
+    }
+    
+    .laptop {
+      padding-right: 80px;
+    }
+    
+    .laptop1 p,
+    .laptop p {
+      margin: 0;
+    }
+    
+    .laptop1 {
+      padding-left: 15px;
+      width: 55%;
+
+      @media (min-width: 576px) {
+        padding: 0;
+        width: 75%;
+    }
+
+      @media (min-width: 992px) {
+        padding-left: 15px;
+        width: 55%;
+    }
+    } 
+  }
+  
