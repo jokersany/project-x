@@ -1,13 +1,24 @@
-.header {
-  max-width: 100%;
+header {
+  border-bottom: 1px solid grey;
+  margin-bottom: 129px;
+
+  @media (min-width: 320px){
+    margin-bottom: 25px;
+  }
+  @media (min-width: 768px){
     margin-bottom: 129px;
-    max-width: 100%;
-    padding: 31px 51px 24px 26px;
-    border-bottom: 1px solid grey;
+  }
+}
+
+
+
+.header {
+    padding: 31px 0 24px 0;
+    position: relative;
+  
 
 
     #header {
-      max-width: 100%;
       position: relative;
     }
  
@@ -44,37 +55,97 @@
             visibility: visible;
             }
         }
-    }
+      }
 
     .mega {
       display: flex;
       justify-content: space-between;
       align-items: center;
 
+      @media (min-width: 320px) {
+        display: inline-block;
+      }
+
       @media (min-width: 768px) {
         display: inline-block;
         text-align: center;
-  
-        
+
       }
       @media (min-width: 992px) {
         display: flex;
         justify-content: space-between;
       }
+
+      .postor1 {
+        display: flex;
+        align-items: center;
+        width: 70%;
+      }
+
+      .postor {
+        padding: 0 10px;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+
+        @media (min-width: 320px) {
+          padding: 20px 0;
+          display: flex;
+          align-items: flex-start;
+        }
+
+        @media (min-width: 567px) {
+          padding: 20px 0;
+          display: flex;
+          align-items: flex-start;
+        }
+
+        @media (min-width: 768px) {
+          display: flex;
+          align-items: flex-start;
+        }
+
+        @media (min-width: 992px) {
+          align-items: center;
+          display: flex;
+        }
+      }
+
+      .oka {
+        position: relative;
+        margin: 0;
+        padding: 0;
+      }
+
+      .rest {
+        list-style: none;
+        width: 130px;
+        margin: 0;
+        padding: 0;
+      }
     }
 
 
+
     .opera {   
-        margin: 0 0 0 auto;
         position: relative;
+        position: absolute;
+        right: 20px;
         display: block;   
         width: 40px;
         height: 40px;
         border: 2px solid black;
         border-radius: 4px;
 
+        @media (min-width: 320px) {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+        } 
+
         @media (min-width: 768px) {
-            display: none;
+         
+          display: none;
         }
 
         span,
@@ -101,6 +172,11 @@
         }
       }
 
+    .link li {
+      display: flex;
+      justify-content: space-around;
+    }  
+
     .link {
         color: black;
         font: 400 15px'Graphiklcg';
@@ -109,28 +185,32 @@
         margin: 0;
         
       
-         
-
-        .rett {
-            min-width: 130px;
+      & a {
+        padding: 0 20px;
+        white-space:nowrap;
+        
+        text-decoration: none;
+        @media (min-width: 320px) {
+          padding: 5px 0 5px 40px;
+          display: block;
         }
 
-      & a {
-        text-decoration: none;
-        @media (min-width: 576px) {
-          display: block;
+        @media (min-width: 768px) {
+          padding: 0 20px;
         }
       }
 
       & li {
-        padding: 7px 25px;
+        display: inline-block;
         list-style: none;
         text-decoration: none;
         width: 100%;
+        display: flex;
+        justify-content: space-around;
       }
 
-      @media (min-width: 576px) {
-        padding: 15px 0;
+      @media (min-width: 320px) {
+        // padding: 25px 0;
         margin: 0;
         list-style: none;
         opacity: 0;
@@ -143,6 +223,7 @@
       }
 
       @media (min-width: 768px) {
+        // padding: 7px 25px;
         position: static;
         opacity: 1;
         display: flex;
@@ -151,9 +232,12 @@
         visibility: visible;
         transform: translate(0);
       }
+
     }
 
     .button {
+
+      padding: 0;
       margin: 0;
       list-style: none;
       align-items: center;
@@ -163,6 +247,7 @@
         margin: 0;
         display: block;
       }
+
     }
 
 
@@ -172,20 +257,21 @@
       font: 600 16px'Graphiklcg';
       line-height: 45px;
       text-decoration: none;
+      text-align: center;
 
       &--first {
+        width: 120px;
         margin: 0;
         border: 1px solid grey;
-        padding: 0 36px;
         background: white;
         margin-right: 10px;
       }
   
       &--second {
+        width: 120px;
         line-height: 45px;
         border: 0px;
         color: white;
-        padding: 0 22px;
         background: #FF6336;
       }
     }

@@ -15,7 +15,7 @@ footer {
       padding: 0 20px 90px;
       border-bottom: 1px solid black;
 
-    @media (min-width: 576px) {
+    @media (min-width: 320px) {
         display: inline-block;
         width: 100%;
         padding: 0;
@@ -48,7 +48,7 @@ footer {
 
         
 
-        @media (min-width: 576px) {
+        @media (min-width: 320px) {
             padding-left: 30px;
             text-align: center;
             width: 100%;
@@ -68,7 +68,7 @@ footer {
         .gogogo {
         width: 23%;
 
-        @media (min-width: 576px) {
+        @media (min-width: 320px) {
             width: 50%;
         }
         
@@ -89,7 +89,7 @@ footer {
       display: flex;
       flex-direction: column;
 
-      @media (min-width: 576px) {
+      @media (min-width: 320px) {
         display: inline-block;
         width: 100%;  
       }
@@ -185,7 +185,7 @@ footer {
       flex-direction: row;
       align-items: center;
 
-      @media (min-width: 576px) {
+      @media (min-width: 320px) {
         display: flex;
         width: 100%;
     }
@@ -208,7 +208,7 @@ footer {
       display: flex;
       align-items: center;
 
-      @media (min-width: 576px) {
+      @media (min-width: 320px) {
         display: inline;
         width: 100%;
 
@@ -243,7 +243,7 @@ footer {
       padding-left: 15px;
       width: 55%;
 
-      @media (min-width: 576px) {
+      @media (min-width: 320px) {
         padding: 0;
         width: 75%;
     }
