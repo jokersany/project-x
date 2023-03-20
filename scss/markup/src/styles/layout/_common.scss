@@ -128,17 +128,22 @@ img {
                 line-height: 70px;
 
                 @media (min-width: 320px) {
-                    font: 600 30px'Graphiklcg';
-                    line-height: 35px;
+                    font: 600 25px'Graphiklcg';
+                    line-height: 30px;
                     width: 100%;
                 }
 
                 @media (min-width: 768px) {
-                    font: 600 45px'Graphiklcg';
-                    line-height: 55px;
+                    font: 600 30px'Graphiklcg';
+                    line-height: 35px;
                 }
 
                 @media (min-width: 992px) {
+                    font: 600 40px'Graphiklcg';
+                    line-height: 45px;
+                }
+
+                @media (min-width: 1200px) {
                     font: 600 65px'Graphiklcg';
                     line-height: 70px;
                 }
@@ -165,6 +170,12 @@ img {
                 }
 
                 @media (min-width: 992px) {
+                    font: 400 20px'Graphiklcg';
+                    line-height: 28px;
+                    width: 50%;
+                }
+
+                @media (min-width: 1200px) {
                     font: 400 25px'Graphiklcg';
                     line-height: 35px;
                     width: 50%;
@@ -625,7 +636,7 @@ img {
 
 .mid {
 	margin-bottom: 154px;
-	padding: 130px 55px;
+	padding: 130px 0;
 	max-width: 100%;
 	background: #FFF8E4;
 
@@ -634,7 +645,7 @@ img {
     }
 
     @media (min-width: 768px) {
-        padding: 130px 55px;
+        padding: 130px 0;
     }
 
     & h4 {
@@ -645,14 +656,19 @@ img {
 
         @media (min-width: 320px)  {
             font: 600 25px'Graphiklcg';
-            line-height: 35px;
+            line-height: 30px;
         }
         @media (min-width: 768px)  {
-            font: 600 40px'Graphiklcg';
-            line-height: 50px;
+            font: 600 30px'Graphiklcg';
+            line-height: 35px;
         }
 
         @media (min-width: 992px)  {
+            font: 600 40px'Graphiklcg';
+            line-height: 45px;
+        }
+
+        @media (min-width: 1200px)  {
             font: 600 50px'Graphiklcg';
             line-height: 60px;
         }
@@ -660,9 +676,19 @@ img {
     
     .monot {
         width: 50%;
+
+        @media (min-width: 576px)  {
+            width: 33%;
+        }
+        @media (min-width: 768px)  {
+            width: 50%;
+        }
+
     }
 
     .wait {
+        padding: 0;
+        margin: 0;
         text-align: center;
         justify-content: space-around;
         display: flex;
@@ -696,7 +722,7 @@ img {
                 padding: 20px;
             }
 
-            @media (min-width: 922px)  {
+            @media (min-width: 1200px)  {
                 padding: 75px 60px 0 60px;
             }
         }
@@ -878,7 +904,7 @@ img {
 .hard {
     max-width: 100%;
 	margin-bottom: 165px;
-	padding: 90px 55px;
+	padding: 90px 0px;
 	max-width: 100%;
 	display: flex;
 	background: #DABC98;
@@ -887,6 +913,21 @@ img {
 	align-items: center;
     flex-wrap: wrap;
 
+            @media (min-width: 360px)  {
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+            margin-bottom: 0;
+        }
+            @media (min-width: 768px)  {
+            padding: 90px 0px;
+            flex-direction:row;
+            justify-content: space-around;
+            align-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 165px;
+        }
 
     .stylenone {
         list-style: none;
@@ -894,9 +935,11 @@ img {
 
     .poi {
         width: 100%;
+        display: flex;
 
         @media (min-width: 320px)  {
             width: calc(100% / 1);
+            padding: 20px 0;
 
         }
 
@@ -920,18 +963,28 @@ img {
         @media (min-width: 320px) {
             border: 0;
             width: 100%;
-            font: 600 20px'Graphiklcg';
-            line-height: 35px;
+            font: 600 18px'Graphiklcg';
+            line-height: 25px;
+            text-align: center;
+            order: -1;
+        }
+
+        @media (min-width: 320px) {
+            border: 0;
+            width: 100%;
+            font: 600 25px'Graphiklcg';
+            line-height: 30px;
             text-align: center;
             order: -1;
         }
 
         @media (min-width: 992px) {
+            padding: 30px 0;
             border-right: 1px solid black;
             width: 40%;
             font: 600 35px'Graphiklcg';
-        line-height: 50px;
-        text-align: left;
+            line-height: 50px;
+            text-align: left;
         }
     }
 
@@ -967,11 +1020,20 @@ img {
         margin: 0;
     }
 
-    .order1,
-    .order {
+    .order1__poi,
+    .order__poi {
         padding: 0;
         margin: 0;
         list-style: none;
+
+        @media (min-width: 320px) {
+           padding: 20px 0;
+
+        }
+
+        @media (min-width: 992px) {
+           padding: 0;
+        }
     }
     
     .order1 {
@@ -990,26 +1052,30 @@ img {
 
     & h2 { 
         margin: 0;
-        width: 45%;
+        width: 60%;
         font: 600 65px'Graphiklcg';
         line-height: 75px;
 
         @media (min-width: 320px)  {
             width: 100%;
-            padding: 25px 0;
             font: 600 20px'Graphiklcg';
             line-height: 30px;
          }
 
          @media (min-width: 768px)  {
             width: 100%;
-            padding: 25px 0;
-            font: 600 35px'Graphiklcg';
-            line-height: 45px;
+            font: 600 45px'Graphiklcg';
+            line-height: 50px;
          }
 
         @media (min-width: 992px)  {
-            width: 45%;
+            width: 80%;
+            font: 600 50px'Graphiklcg';
+            line-height: 60px;
+
+        }
+        @media (min-width: 1200px)  {
+            width: 60%;
             font: 600 65px'Graphiklcg';
             line-height: 75px;
 
@@ -1052,11 +1118,18 @@ img {
 
         @media (min-width: 576px)  {
             width: 100%;
-            font: 400 16px'Graphiklcg';
+            font: 400 20px'Graphiklcg';
             line-height: 22px;
          }
 
         @media (min-width: 992px)  {
+            width: 80%;
+            font: 400 22px'Graphiklcg';
+            line-height: 26px;
+
+        }
+
+        @media (min-width: 1200px)  {
             width: 38%;
             font: 400 25px'Graphiklcg';
             line-height: 30px;
@@ -1078,7 +1151,7 @@ img {
 
     & h2 { 
         margin: 0;
-        width: 55%;
+        width: 65%;
         font: 600 65px'Graphiklcg';
         line-height: 75px;
 
@@ -1092,12 +1165,19 @@ img {
         @media (min-width: 768px)  {
             width: 100%;
             padding: 25px 0;
-            font: 600 45px'Graphiklcg';
-            line-height: 55px;
+            font: 600 35px'Graphiklcg';
+            line-height: 40px;
          }
 
         @media (min-width: 992px)  {
-            width: 55%;
+            width: 80%;
+            font: 600 40px'Graphiklcg';
+            line-height: 50px;
+
+        }
+
+        @media (min-width: 992px)  {
+            width: 65%;
             font: 600 65px'Graphiklcg';
             line-height: 75px;
 
