@@ -681,14 +681,11 @@ img {
 
 .mid {
 	max-width: 100%;
-   
-    padding: 60px 0;
-    // @media (min-width: 320px) {
-    //     padding: 0 15px;
-    // }
+    padding-bottom: 60px;
 
     @media (min-width: 768px) {
         padding: 60px 0;
+       
     }
 
     .scob {
@@ -722,14 +719,6 @@ img {
         top: 13px;
         left: 12px;
         width: 64px;
-
-
-        // @media (min-width: 576px)  {
-        //     width: 33%;
-        // }
-        // @media (min-width: 768px)  {
-        //     width: 50%;
-        // }
 
     }
 
@@ -780,17 +769,12 @@ img {
 
         & li {
             width: 28%;
-            padding: 70px 0 0 0;
-            // width: calc(100% / 3);
             list-style: none;
-
-            // @media (min-width: 320px)  {
-            //     padding: 20px;
-            // }
-
-            // @media (min-width: 1200px)  {
-            //     padding: 75px 60px 0 60px;
-            // }
+           padding-top: 20px;
+            @media (min-width: 768px)  {
+               padding-top: 70px;
+            }
+      
         }
         
         .pol p {
